@@ -13,21 +13,21 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
+      "wa gha fkri tshoufi?",
+      "ari eliha shy boussa hhhhh",
+      "ana mzaaaawg",
+      "nbous lik rjlik",
+      "I would die to actually hhhhhh",
+      "Boussa wla nmout",
       "But :*(",
       "I am going to die",
       "Yep im dead",
-      "ok ur talking to nathan's ghost",
+      "qwtyha",
       "please babe",
       ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "Hana mzaaaaawg",
+      "Gha ded f Salwa o Samira",
+      "O ded f abdellah o",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,7 +38,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you Safae!! ;))</div>
         </>
       ) : (
         <>
